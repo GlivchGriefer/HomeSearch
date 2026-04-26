@@ -2,16 +2,16 @@
 title: Home Search Dashboard
 tags:
   - type/dashboard
-work_address: ""
-budget_max: 
-target_move_date: ""
+work_address: 200 E Colfax Ave, Denver, CO 80203
+budget_max: "3000"
+target_move_date: 5/25/2026
 search_active: true
 ---
 		
 # Home Search Dashboard
 
 > [!info] Setup
-> Fill in `work_address` above (e.g. `"123 Corporate Dr, Denver, CO"`) to anchor commute analysis. Update `budget_max` and `target_move_date` so I can filter when searching on your behalf.
+> Work address set to CO State Capitol, Denver, CO. Update `budget_max` and `target_move_date` to enable full AI search filtering.
 
 ---
 
@@ -37,11 +37,11 @@ SORT rows[0].status ASC
 > 5. From a listing pin, copy the address into Google Maps to compare routes
 
 ```mapview
-{"name":"All Listings","mapZoom":11,"centerLat":39.7392,"centerLng":-104.9903,"query":"path:\"01 - Listings\"","chosenMapSource":0}
+{"name":"All Listings","mapZoom":11,"centerLat":39.7392,"centerLng":-104.9847,"query":"path:\"01 - Listings\"","chosenMapSource":0}
 ```
 
-> [!warning] Map Center
-> The map defaults to Denver, CO. Update `centerLat` and `centerLng` in the code block above if your search area is different.
+> [!info] Map Center
+> Centered on CO State Capitol, Denver, CO (work address).
 
 ---
 

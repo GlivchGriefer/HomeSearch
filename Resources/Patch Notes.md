@@ -45,8 +45,8 @@ created: 2026-04-25
 - [ ] Verify QuickAdd "New Listing" command appears in Command Palette
 - [ ] Assign hotkey to QuickAdd New Listing (`Cmd+Shift+N` recommended)
 - [ ] Set Kanban lane in `00 - Pipeline.md` to kanban view mode
-- [ ] Update `work_lat` / `work_lng` in `04 - Neighborhoods/Commute Map.md`
-- [ ] Update map center coords in `Home.md` mapview block and `Commute Map.md` leaflet block
+- [x] Update `work_lat` / `work_lng` in `04 - Neighborhoods/Commute Map.md`
+- [x] Update map center coords in `Home.md` mapview block and `Commute Map.md` leaflet block
 
 ---
 

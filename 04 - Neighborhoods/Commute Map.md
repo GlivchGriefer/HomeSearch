@@ -2,17 +2,15 @@
 title: Commute Map
 tags:
   - type/map
-work_address: ""
-work_lat: 
-work_lng: 
+work_address: "200 E Colfax Ave, Denver, CO 80203"
+work_lat: 39.7392
+work_lng: -104.9847
 ---
 
 # Commute Map
 
-> [!warning] Setup Required
-> Replace `work_lat` and `work_lng` in the Properties panel with your work coordinates.
-> Get them: open Google Maps → search your work address → right-click the pin → copy the first two numbers (lat, lng).
-> Then update those same values in the `marker` and `circle` lines inside the Leaflet block below.
+> [!info] Work Address
+> Anchored to **200 E Colfax Ave, Denver, CO 80203** — `[39.7392, -104.9847]`
 
 ---
 
@@ -26,7 +24,7 @@ The three circles approximate drive-time zones from your work address under norm
 ```leaflet
 id: commute-buffer-map
 lat: 39.7392
-long: -104.9903
+long: -104.9847
 height: 550px
 zoom: 11
 minZoom: 9
@@ -36,16 +34,15 @@ scale: 1
 recenter: true
 darkMode: false
 markerFolder: 01 - Listings
-marker: default, 39.7392, -104.9903, "Work Address", "Update these coords", ""
-circle: 39.7392, -104.9903, 5, "~10 min", "#2f9e44"
-circle: 39.7392, -104.9903, 10, "~20 min", "#f08c00"
-circle: 39.7392, -104.9903, 15, "~30 min", "#e03131"
+marker: default, 39.7392, -104.9847, "CO State Capitol — Work", "Denver, CO 80203", ""
+overlay:
+  - ['#2f9e44', [39.7392, -104.9847], 5 miles, '~10 min']
+  - ['#f08c00', [39.7392, -104.9847], 10 miles, '~20 min']
+  - ['#e03131', [39.7392, -104.9847], 15 miles, '~30 min']
 ```
 
-> [!tip] How to Update This Map
-> 1. Get your work address lat/lng from Google Maps (right-click → copy coords)
-> 2. In the code block above, replace all four instances of `39.7392, -104.9903` with your real coords
-> 3. The `markerFolder` line auto-pulls every listing in `01 - Listings/` that has a `location: [lat, lng]` field set
+> [!tip] Adding Listings to the Map
+> Set `location: [lat, lng]` in any listing note's YAML — the `markerFolder` line auto-pulls every note in `01 - Listings/` that has that field set.
 
 ---
 

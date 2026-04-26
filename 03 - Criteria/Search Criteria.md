@@ -5,7 +5,7 @@ tags:
   - status/active
 
 # ── Location ─────────────────────────────────────────────────────────
-work_address: ""
+work_address: "200 E Colfax Ave, Denver, CO 80203"
 target_areas: []
 max_commute_mins: 
 search_radius_miles: 

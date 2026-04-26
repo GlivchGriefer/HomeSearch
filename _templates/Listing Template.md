@@ -3,7 +3,7 @@
 title: <% tp.file.title %>
 address: <% tp.file.title %>
 location: []
-# location: [39.7392, -104.9903]  ← right-click pin in Google Maps → "What's here?" → copy coords
+# location: [39.7392, -104.9847]  ← right-click pin in Google Maps → "What's here?" → copy coords
 neighborhood: ""
 
 # ── Classification ───────────────────────────────────────────────────
