@@ -8,7 +8,7 @@
 ![Kanban](https://img.shields.io/badge/Kanban-v2.0.51-4A90D9?style=flat-square)
 ![Tasks](https://img.shields.io/badge/Tasks-v7.23.1-4A90D9?style=flat-square)
 ![Leaflet](https://img.shields.io/badge/Leaflet-v6.0.5-4A90D9?style=flat-square)
-![Status](https://img.shields.io/badge/status-active-2f9e44?style=flat-square)
+![Release](https://img.shields.io/github/v/release/glivchgriefer/HomeSearch?style=flat-square&color=2f9e44)
 
 **A structured rental search system built in Obsidian — with AI-powered listing discovery via Claude Code in VS Code.**
 
